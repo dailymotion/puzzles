@@ -1,6 +1,8 @@
 puzzles
 ==========
 
+## TLDR: <a style="color:#2DB5F0;" href="http://dailymotion.github.io/puzzles/">List of puzzles</a>
+
 ## Why am I here?
 
 You're here either because you're lost or because you're curious. If you're lost, click back in your browser until you see something familiar and stop right there.
