@@ -49,7 +49,7 @@ Info: Building a puzzle is harder than solving one but, it's extremely gratifyin
 1. Ideally we'd like to have no more than one puzzle / week.
 2. When a new puzzle is proposed, announce if you want to be the next one to propose one (via mail reply-all)
 3. Add your puzzle to the <a target="_blank" href="http://dailymotion.github.io/puzzles/">puzzles list</a>  on the **last day of the current puzzle period**
-4. The puzzle should be doable in less than 2 hours following your guidelines (provided via a howto)
+4. The puzzle should be doable in less than 2 hours **following your guidelines** (provided via a howto)
 5. You must do the puzzle too and push your code on the **first day of your puzzle's period** (this will allow you to validate the feasibility and check that the guidelines and the constraints you specified in your puzzle are correct and sufficient)
 
 
