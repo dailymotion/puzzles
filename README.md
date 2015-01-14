@@ -24,6 +24,12 @@ Puzzles could be about anything, from JS (browser or node), CSS1/2/3, HTML5 APIs
 
 You're either here to solve a puzzle or to publish one. In either case, there are rules to follow to ensure the best experience to everyone.
 
+### Puzzle guidelines
+
+  * keep it simple and minimalist (no more than 200 lines of code)
+  * Try to focus your puzzle on one precise concept / method / discovery (the easier, the most solvers will remember it and learn from it)
+  * Provide all the documentation required to solve the puzzle (devs should not need to use other docs than the ones provided)
+
 ### Rules for puzzle solvers
 
 All code produced should be pushed under the branch named after you, in a dedicated directory named after the puzzle name. This will allow everyone to see your way of solving any puzzle.
@@ -38,15 +44,11 @@ Ex:
 
 Info: Building a puzzle is harder than solving one but, it's extremely gratifying and allows you to learn a lot more.
 
-1. There won't be more than one puzzle / week.
+1. Ideally we'd like to have no more than one puzzle / week.
 2. When a new puzzle is proposed, announce if you want to be the next one to propose one (via mail reply-all)
-3. When everyone acknowleged it, add a `Coming Next: <your name>` to the [puzzles list](http://dailymotion.github.io/puzzles/)
-4. Add your puzzle to the [puzzles list](http://dailymotion.github.io/puzzles/)  on the last day of the current puzzle period
-5. The puzzle should be doable in less than 2 hours following the guidelines by using the howto you will provide
-  * keep it simple and minimalist (no more than 200 lines of code)
-  * Try to focus your puzzle on one precise concept / method / discovery (the easier, the most solvers will remember it and learn from it)
-  * Provide all the documentation required to solve the puzzle (devs should not need to use other docs than the ones provided)
-6. When your puzzle is ready, replace `Coming Next: <your name>` in the [puzzles list](http://dailymotion.github.io/puzzles/) by the link to your puzzle
-7. You must do the puzzle too and push your code on the first day of your puzzle's period (this will allow you to validate the feasibility and check that the guidelines and the constraints you specified in your puzzle are correct and sufficient)
+3. Add your puzzle to the [puzzles list](http://dailymotion.github.io/puzzles/)  on the **last day of the current puzzle period**
+4. The puzzle should be doable in less than 2 hours following your guidelines (provided via a howto)
+5. You must do the puzzle too and push your code on the **first day of your puzzle's period** (this will allow you to validate the feasibility and check that the guidelines and the constraints you specified in your puzzle are correct and sufficient)
+
 
 Happy puzzling!
