@@ -1,40 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>DM Puzzles</title>
+---
+layout: default
+---
+<h1>DM Puzzles</h1>
+<p>Here is the list of all available puzzles:</p>
 
-    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
-    <link rel="stylesheet" type="text/css" href="dm-puzzles.min.css">
+<br>
 
-    <style type="text/css">
-        .left-padding
-        {
-            margin-left: 12px;
-        }
-    </style>
-
-</head>
-<body>
-
-    <div class="container">
-        <h1>DM Puzzles</h1>
-
-        <p>Here is the list of all available puzzles:</p>
-
-        <br>
-
-        <div class="left-padding">
-            <ol>
-                <li>
-                    <a href="node-server.html">Build a dumb NodeJS server</a>
-                </li>
-                <!--
-                When adding the link to the new puzzle:
-                <li>
-                    <a href="<link_to_your_puzzle>">Build a dumb NodeJS server</a>
-                </li>
-                -->
-            </ol>
-        </div>
-</body>
-</html>
+<div class="left-padding">
+    <ol>
+        {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">
+                    {{ post.title }}
+                    <span style="float: right">{{ post.date | date_to_string }}</span>
+                </a>
+            </li>
+        {% endfor %}
+    </ol>
+</div>
