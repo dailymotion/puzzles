@@ -204,3 +204,7 @@ code
 {
     margin-left: 12px;
 }
+
+#tips ul:first-child > li {
+	display: none;
+}

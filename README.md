@@ -12,4 +12,6 @@ Open your browser at [http://0.0.0.0:4000/](http://0.0.0.0:4000/).
 
 ## Creating a puzzle
 
-Create a new html or markdown in `_posts` in the format `date-puzzle-title.md` (eg. `2015-01-16-my-awesome-puzzle.md`).
+    $ make new post-title-here-without-weird-characters-please
+
+This will create a new markdown file `_posts/2015-01-15-post-title-here-without-weird-characters-please.md` (with the current date obviously).

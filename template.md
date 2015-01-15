@@ -1,6 +1,6 @@
 ---
 layout: default
-title: My awesome puzzle
+title: Your puzzle title here
 ---
 <h1>DM Puzzle - Your very very veeeeery cool puzzle :)</h1>
 
@@ -13,11 +13,11 @@ title: My awesome puzzle
         <li>Here is the step 1.</li>
         <li>Here is the step 2 with a <code>&lt;specific tag&gt;</code></li>
         <li>Here is the step 3
-			<ul>
-				<li>Here is the step 3.1</li>
-				<li>Here is the step 3.2</li>
-			</ul>
-		</li>
+            <ul>
+                <li>Here is the step 3.1</li>
+                <li>Here is the step 3.2</li>
+            </ul>
+        </li>
     </ol>
 
     <h5>Example:</h5>
@@ -31,10 +31,10 @@ title: My awesome puzzle
 <h3>Prerequisites</h3>
 
 <div>
-	<ul>
-		<li>A computer</li>
-		<li>A text editor</li>
-	</ul>
+    <ul>
+        <li>A computer</li>
+        <li>A text editor</li>
+    </ul>
 </div>
 
 <h3>Instructions</h3>
@@ -53,7 +53,7 @@ title: My awesome puzzle
 
 <h3>To be resolved before</h3>
 <div>
-    <p>31, December 2014</p>
+    <p>31, December 2015</p>
 </div>
 
 <h3>Expected time to resolution</h3>
@@ -68,22 +68,30 @@ title: My awesome puzzle
 
 <h3>How</h3>
 <div>
-	<ul>
-		<li><a target="_blank" href="http://www.w3.org/">http://www.w3.org/</a></li>
-		<li><a target="_blank" href="https://developer.mozilla.org/fr/">https://developer.mozilla.org/fr/</a></li>
-		<li><a target="_blank" href="http://nodejs.org/documentation/">http://nodejs.org/documentation/</a></li>
-	</ul>
+    <!-- Links to relevant documentation here -->
+    <ul>
+        <li><a target="_blank" href="http://www.w3.org/">http://www.w3.org/</a></li>
+        <li><a target="_blank" href="https://developer.mozilla.org/fr/">https://developer.mozilla.org/fr/</a></li>
+        <li><a target="_blank" href="http://nodejs.org/documentation/">http://nodejs.org/documentation/</a></li>
+    </ul>
 </div>
 
 <h3>Lost?</h3>
 <div>
-    <button onclick="(function(){event.target.style.display='none'; document.querySelector('#tips').style.display = 'block';})()">Show Tips</button>
-    <div id="tips" style="display:none;">
-        <p>In the documenation, look for:</p>
-            <ul>
-                <li>First tip</li>
-                <li>Second tip</li>
-            </ul>
+    <button id="show-tips">Show Tips</button>
+    <div id="tips">
+        <ul>
+            <li>
+                <p>In the documenation, look for:</p>
+                <ul>
+                    <li>First tip</li>
+                    <li>Second tip</li>
+                </ul>
+            </li>
+            <li>
+                Other interesting tip here
+            </li>
+        </ul>
     </div>
 </div>
 
