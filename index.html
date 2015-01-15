@@ -10,7 +10,7 @@ layout: default
     <ol>
         {% for post in site.posts %}
             <li>
-                <a href="http://dailymotion.github.io/puzzles/{{ post.url }}">
+                <a href="http://dailymotion.github.io/puzzles{{ post.url }}">
                     {{ post.title }}
                     <span style="float: right">{{ post.date | date_to_string }}</span>
                 </a>
