@@ -70,7 +70,7 @@ title: Build a dumb NodeJS server
 
 <h3>Lost?</h3>
 <div>
-    <button onclick="(function(){event.target.style.display='none'; document.querySelector('#tips').style.display = 'block';})()">Show Tips</button>
+    <button id="show-tips">Show Tips</button>
     <div id="tips">
             <ul>
                 <li>In the documenation, look for: http.createServer</li>
