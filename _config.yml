@@ -1,3 +1,5 @@
 name: Dailymotion Puzzles
 markdown: redcarpet
 permalink: pretty
+
+baseurl: /dailymotion/puzzles

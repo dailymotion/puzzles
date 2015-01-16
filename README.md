@@ -6,7 +6,7 @@
     $ gem install jekyll
 
     # launch the development server
-    $ jekyll serve --watch
+    $ jekyll serve --watch --baseurl ''
 
 Open your browser at [http://0.0.0.0:4000/](http://0.0.0.0:4000/).
 

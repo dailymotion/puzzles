@@ -81,5 +81,5 @@ title: Build a dumb NodeJS server
 
 <h3>Definitely lost?</h3>
 <div>
-    <a target="_blank" href="https://github.com/dailymotion/puzzles/blob/francois/node-server/server.js">Show solution</a>
+    <a target="_blank" href="https://github.com/dailymotion/puzzles/blob/francois.bonnefont/node-server/server.js">Show solution</a>
 </div>
