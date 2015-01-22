@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DM Puzzle - Capture your webcam stream with WebRTC and html5</title>
+    <style type="text/css">
+    #photoCanvas, #videoCam {
+    	-webkit-filter: grayscale(100%);
+		   -moz-filter: grayscale(100%);
+		    -ms-filter: grayscale(100%);
+		     -o-filter: grayscale(100%);
+		        filter: grayscale(100%);
+		        height: 240px;
+		         width: 320px;
+	}
+    </style>
+  </head>
+  <body>
+    <video id="videoCam" autoplay controls></video>
+	<p><button id="takePhoto">Take photo</button></p>
+	<canvas id="photoCanvas"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
