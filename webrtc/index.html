@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title></title>
+
+    <style type="text/css">
+        canvas, video
+        {
+            -webkit-filter:
+                grayscale(0.9)
+                blur(3px)
+                brightness(150%)
+                contrast(150%)
+                invert(80%);
+        }
+    </style>
+</head>
+<body>
+    <video width="320" height="240" autoplay></video>
+    <button>Take photo</button>
+    <canvas></canvas>
+    <script type="text/javascript" src="webrtc.js"></script>
+</body>
+</html>
