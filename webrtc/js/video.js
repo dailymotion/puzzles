@@ -30,7 +30,7 @@ else
 }
 
 
-document.querySelector('button').addEventListener('click',function()
+document.querySelector('.screen').addEventListener('click',function()
 {
     if (feed !== null)
     {
@@ -39,4 +39,9 @@ document.querySelector('button').addEventListener('click',function()
         context.drawImage(feed, 0, 0, width, height);
         canvas.src = canvas.toDataURL('image/png');
     }
+});
+
+document.querySelector('.filter').addEventListener('click',function()
+{
+    canvas.classList.toggle('filtered');
 });
