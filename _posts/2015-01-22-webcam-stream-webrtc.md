@@ -73,7 +73,7 @@ title: Capture your webcam stream with WebRTC and html5
 
 <h3>To be resolved before</h3>
 <div class="left-padding">
-    17, December 2014
+    28, January 2015
 </div>
 
 <h3>Expected time to resolution</h3>
