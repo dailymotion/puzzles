@@ -98,7 +98,7 @@ title: Capture your webcam stream with WebRTC and html5
 
 <h3>Lost?</h3>
 <div>
-    <button id="show-tips">Show Tips</button>
+    <button class="show-tips" id="show-tips">Show Tips</button>
     <div id="tips">
         <ul>
             <li>

@@ -70,7 +70,7 @@ title: Build a dumb NodeJS server
 
 <h3>Lost?</h3>
 <div>
-    <button id="show-tips">Show Tips</button>
+    <button class="show-tips" id="show-tips">Show Tips</button>
     <div id="tips">
             <ul>
                 <li>In the documenation, look for: http.createServer</li>

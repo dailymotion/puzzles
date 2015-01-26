@@ -1,7 +1,11 @@
 CHECK=\033[32m✔ Done\033[39m
 FORMATTED_DATE=`date +'%Y-%m-%d'`
 
-all: new
+all: server
+
+server:
+	@echo "\033[36m⚡️  Dailymotion Puzzles ⚡️\033[39m"
+	@jekyll serve --watch --baseurl ''
 
 new:
 	@if [ -f _posts/$(FORMATTED_DATE)-$(filter-out $@,$(MAKECMDGOALS)).md ] ; \

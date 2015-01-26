@@ -1,5 +1,6 @@
 name: Dailymotion Puzzles
 markdown: redcarpet
 permalink: pretty
-
 baseurl: /puzzles
+exclude:
+    - template.md
