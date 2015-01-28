@@ -6,9 +6,7 @@
     $('#show-tips').click(function() {
       var lis = $('#tips').find('li')
       lis.not(':visible').first().show()
-      if (!lis.not(':visible').length) {
-        $(this).hide()
-      }
+      lis.not(':visible').length || $(this).hide()
     })
   })
 

@@ -5,8 +5,8 @@
     # Install the dependencies
     $ gem install jekyll
 
-    # launch the development server
-    $ make
+    # launch the development server and compass
+    $ make -j
 
 Open your browser at [http://0.0.0.0:4000/](http://0.0.0.0:4000/).
 

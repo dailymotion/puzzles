@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Terminal ASCII Clock
+date: 2015/01/29
 ---
 <h1>DM Puzzle - Terminal ASCII Clock</h1>
 
