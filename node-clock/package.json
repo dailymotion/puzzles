@@ -1,0 +1,13 @@
+{
+  "name": "node-clock",
+  "version": "1.0.0",
+  "description": "Beautiful clock in your terminal for no reason",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Romain Berger <romain.berger@dailymotion.com>",
+  "devDependencies": {
+    "figlet": "^1.1.0"
+  }
+}
