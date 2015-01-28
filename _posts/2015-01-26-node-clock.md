@@ -15,12 +15,19 @@ title: Terminal ASCII Clock
         <li>Bonus step: center the clock vertically and horizontally.</li>
     </ol>
 
-    <h5>Screenshot:</h5>
+    <p>It should look like this:</p>
     <p>
-        <a href="{{ site.baseurl }}/img/node-clock.png">
-            <img src="{{ site.baseurl }}/img/node-clock.png" width="100%">
-        </a>
+        <img src="{{ site.baseurl }}/img/node-clock.gif" width="100%">
     </p>
+</div>
+
+<h3>How</h3>
+<div>
+    <ul>
+        <li><a target="_blank" href="http://nodejs.org/api/">NodeJS doc</a></li>
+        <li><a target="_blank" href="https://www.npmjs.com/package/figlet">The figlet module for your ASCII needs</a></li>
+    </ul>
+    <p>These docs should be enough to resolve the puzzle. </p>
 </div>
 
 <h3>Prerequisites</h3>
@@ -47,15 +54,7 @@ title: Terminal ASCII Clock
 
 <h3>Expected number of lines</h3>
 <div>
-    <p>Less than 50</p>
-</div>
-
-<h3>How</h3>
-<div>
-    <ul>
-        <li><a target="_blank" href="http://nodejs.org/api/">NodeJS doc</a></li>
-        <li><a target="_blank" href="https://www.npmjs.com/package/figlet">The figlet module for your ASCII needs</a></li>
-    </ul>
+    <p>Around 50</p>
 </div>
 
 <h3>Lost?</h3>
