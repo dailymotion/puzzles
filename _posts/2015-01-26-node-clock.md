@@ -14,6 +14,7 @@ date: 2015/01/29
         <li>Make a script that write the time in your terminal that updates itself every seconds.</li>
         <li>Use a module from npm to display the time in some beautiful ASCII art.</li>
         <li>Bonus step: center the clock vertically and horizontally.</li>
+        <li>Bonus Bonus step: do the same thing in ruby!</li>
     </ol>
 
     <p>It should look like this:</p>
@@ -85,6 +86,7 @@ var clear = function clear(cb) {
 
 <h3>Definitely lost?</h3>
 <div>
-    <p><a target="_blank" href="https://github.com/dailymotion/puzzles/blob/romain-berger/node-clock/index.js">Show solution</a></p>
+    <p><a target="_blank" href="https://github.com/dailymotion/puzzles/blob/romain-berger/node-clock/index.js">Show solution in NodeJS</a></p>
+    <p><a href="_blank" href="https://github.com/dailymotion/puzzles/blob/romain-berger/node-clock-rb/clock.rb">Show solution in ruby</a></p>
 </div>
 </div>
