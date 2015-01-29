@@ -87,6 +87,6 @@ var clear = function clear(cb) {
 <h3>Definitely lost?</h3>
 <div>
     <p><a target="_blank" href="https://github.com/dailymotion/puzzles/blob/romain-berger/node-clock/index.js">Show solution in NodeJS</a></p>
-    <p><a href="_blank" href="https://github.com/dailymotion/puzzles/blob/romain-berger/node-clock-rb/clock.rb">Show solution in ruby</a></p>
+    <p><a target="_blank" href="https://github.com/dailymotion/puzzles/blob/romain-berger/node-clock-rb/clock.rb">Show solution in ruby</a></p>
 </div>
 </div>
