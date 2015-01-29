@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+ruby '2.0.0'
+
+gem 'artii', '2.1.1'
