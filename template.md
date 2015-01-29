@@ -28,6 +28,16 @@ title: Your puzzle title here
     </div>
 </div>
 
+<h3>How</h3>
+<div>
+    <!-- Links to relevant documentation here -->
+    <ul>
+        <li><a target="_blank" href="http://www.w3.org/">http://www.w3.org/</a></li>
+        <li><a target="_blank" href="https://developer.mozilla.org/fr/">https://developer.mozilla.org/fr/</a></li>
+        <li><a target="_blank" href="http://nodejs.org/documentation/">http://nodejs.org/documentation/</a></li>
+    </ul>
+</div>
+
 <h3>Prerequisites</h3>
 
 <div>
@@ -64,16 +74,6 @@ title: Your puzzle title here
 <h3>Expected number of lines</h3>
 <div>
     <p>Less than 100</p>
-</div>
-
-<h3>How</h3>
-<div>
-    <!-- Links to relevant documentation here -->
-    <ul>
-        <li><a target="_blank" href="http://www.w3.org/">http://www.w3.org/</a></li>
-        <li><a target="_blank" href="https://developer.mozilla.org/fr/">https://developer.mozilla.org/fr/</a></li>
-        <li><a target="_blank" href="http://nodejs.org/documentation/">http://nodejs.org/documentation/</a></li>
-    </ul>
 </div>
 
 <h3>Lost?</h3>
