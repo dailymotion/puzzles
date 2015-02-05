@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<h1>DM Puzzles</h1>
+<p>Here is the list of all available puzzles:</p>
+
+<br>
+
+<div class="left-padding">
+    <ol>
+        {% for post in site.posts %}
+            <li>
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                    {{ post.title }}
+                    <span style="float: right">{{ post.date | date_to_string }}</span>
+                </a>
+            </li>
+        {% endfor %}
+    </ol>
+</div>
