@@ -99,6 +99,6 @@ title: Function manipulation
 
 <h3>Definitely lost?</h3>
 <div>
-    <p><a target="_blank" href="<href_to_your_puzzle_solution_on_github>">Show solution</a></p>
+    <p><a target="_blank" href="https://github.com/dailymotion/puzzles/blob/loick-ledigabel/function-manipulation/index.html">Show solution</a></p>
 </div>
 </div>
