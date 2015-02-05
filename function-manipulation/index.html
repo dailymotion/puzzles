@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script>
+            var add = function()
+            {
+                add.reset = function(){ add.sum = 0;return add; };
+                add.sum = add.sum || 0;
+                if(arguments.length == 0){ console.log(add.sum); return add; }
+                add.toString = function(){ console.log(add.sum); };
+
+                var nums = Array.prototype.slice.call(arguments);
+                add.sum += nums.reduce(function(m,x) { return m + x; });
+
+                return add;
+            };
+
+            add(4);
+            add.toString(); // 4
+
+            add.reset();
+            add.toString(); // 0
+
+            add(4,7)(); // 11
+
+            add(1)(2)(3)(); // 17
+
+            add.reset()(2)(); // 2
+
+            add.reset()(1)(2)(3)()(2,4,5)(2)(); // 17
+        </script>
+    </head>
+    <body></body>
+</html>
