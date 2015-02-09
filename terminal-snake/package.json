@@ -1,0 +1,14 @@
+{
+  "name": "terminal-snake",
+  "version": "1.0.0",
+  "description": "Snake in your terminal",
+  "main": "lib/snake.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Romain Berger <romain.berger@dailymotion.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ansi": "^0.3.0"
+  }
+}
