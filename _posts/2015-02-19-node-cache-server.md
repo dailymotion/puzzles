@@ -7,9 +7,10 @@ title: Node Cache Server
 <h2>Objective</h2>
 
 <div>
-    <p>Have you ever wanted to convert your very slow and resistant to change website/blog with tons of content to something really cool using modern technos (like mobile app or API centric web app)? We'll try to do that. Let's build a cache server using NodeJS. The main idea is: when a request arrives, check if it is already cached, if yes, render it immediately, if not, proxify the request and store (cache) the content in your cache server, and then, render the result. Simple, isn't it? <a href="http://www.1001.io/improve-wordpress-with-nodejs/" target="_blank">Check this article</a> for more info about the idea.</p>
-    <p><a href="http://imgur.com/3b0U478"><img src="http://i.imgur.com/3b0U478.png" title="source: imgur.com" /></a></p>
-    <p><a href="http://imgur.com/w0GGNHB"><img src="http://i.imgur.com/w0GGNHB.png" title="source: imgur.com" /></a></p>
+    <p>Have you ever wanted to convert your very slow and resistant to change website/blog with tons of content to something really cool using modern technos (like mobile app or API centric web app)? We'll try to do that. </p>
+    <p>Let's build a cache server using NodeJS. The main idea is: when a request arrives, check if it is already cached, if yes, render it immediately, if not, proxify the request and store (cache) the content in your cache server, and then, render the result. Simple, isn't it? <a href="http://www.1001.io/improve-wordpress-with-nodejs/" target="_blank">Check this article</a> for more info about the idea.</p>
+    <p style="text-align:center"><a href="http://imgur.com/3b0U478"><img src="http://i.imgur.com/3b0U478.png" title="source: imgur.com" /></a></p>
+    <p style="text-align:center"><a href="http://imgur.com/w0GGNHB"><img src="http://i.imgur.com/w0GGNHB.png" title="source: imgur.com" /></a></p>
     <p>The steps:</p>
     <ol>
         <li>Create your Node server</li>
@@ -31,8 +32,8 @@ title: Node Cache Server
     <div>
         <p>You can use this simple API if you don't know which one to use:</p>
         <ul>
-            <li><code>http://cultiz.com/api/get_posts/</code> : list of articles (can use "?count=" to limit the number of items)</li>
-            <li><code>http://cultiz.com/api/get_post/?post_id=23668</code> : get 1 article (by ID or by slug: "?post_slug=")</li>
+            <li><code>http://cultiz.com/api/get_posts/</code> : list of articles (oyu can use <code>?count=</code> to limit the number of items)</li>
+            <li><code>http://cultiz.com/api/get_post/?post_id=23668</code> : get 1 article (by ID or by slug: <code>?post_slug=</code>)</li>
         </ul>
         <p>When I go to <code>http://localhost:1234/get_posts</code> I should get the JSON result I asked for, not cached the first (~4 s response time), cached then (~40 ms response time).</p>
 
@@ -95,11 +96,11 @@ title: Node Cache Server
     <div id="tips">
         <ul>
             <li>
-                <p>"get" and "delete" routes should be enough for this puzzle</p>
+                <p>GET and DELETE routes should be enough for this puzzle</p>
             </li>
             <li>
-                <p>Redis need to be installed and the server should run ;) <code>$. redis-server</code>.</p>
-                <p>You can also test what has been stored using the Redis client: <code>$. redis-cli</code> & <code>>. KEYS *</code>.</p>
+                <p>Redis need to be installed and the server should run ;) <code>> redis-server</code>.</p>
+                <p>You can also test what has been stored using the Redis client: <code>> redis-cli</code> & <code>> KEYS *</code>.</p>
             </li>
             <li>
                 <p>In Redis, you can just use GET, SET, EXISTS and DEL commands like this <code>redisClient.set(key, value, function(error){ })</code>.</p>
